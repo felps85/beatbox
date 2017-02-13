@@ -2,4 +2,4 @@
 
 You can see the working prototype [here](https://felps85.github.io/beatbox/ "github pages"): <https://felps85.github.io/beatbox/>
 
-![screenshot](http://tinypic.com/r/34nf5h2/9 "screenshot beatbox")
+![screenshot](http://imgur.com/m2ia3Kt "screenshot beatbox")
