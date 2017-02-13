@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+    background: #000 url("img/beatbox.jpg") no-repeat fixed left top;
+  }
+
+body,html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courgette', cursive;
+}
+
+.beats {
+  display: flex;
+  flex: 1;
+  flex-flow: row wrap;
+  min-height: 100vh;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.row{
+  display: flex;
+
+}
+
+.key{
+  border: .2rem solid black;
+  border-radius: .5rem;
+  margin: .5rem;
+  /*padding: 1rem .5rem;*/
+  transition: all .07s ease;
+  width: 5rem;
+  /*max-height: 5rem;*/
+  text-align: center;
+  /*align-self: flex-start;*/
+  color: white;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+
+}
+
+.sound{
+  font-size: 1rem;
+  letter-spacing: .1rem;
+  color: #ffc600;
+
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
