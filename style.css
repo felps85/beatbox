@@ -28,6 +28,49 @@ body,html {
 
 }
 
+.pattern-controls {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: .75rem;
+  margin-top: 1.5rem;
+  padding: 0 1rem;
+}
+
+#pattern-input {
+  width: 100%;
+  max-width: 30rem;
+  flex: 1 1 20rem;
+  border: .2rem solid #111;
+  border-radius: .5rem;
+  padding: .75rem 1rem;
+  font-size: 1rem;
+  font-family: inherit;
+  color: #fff;
+  background: rgba(0,0,0,0.6);
+}
+
+#pattern-input::placeholder {
+  color: rgba(255,255,255,0.75);
+}
+
+#play-pattern {
+  border: .2rem solid #111;
+  border-radius: .5rem;
+  padding: .75rem 1rem;
+  font-size: 1rem;
+  font-family: inherit;
+  color: #111;
+  background: #ffc600;
+  cursor: pointer;
+}
+
+#play-pattern:hover {
+  filter: brightness(1.05);
+}
+
 .key{
   border: .2rem solid black;
   border-radius: .5rem;
